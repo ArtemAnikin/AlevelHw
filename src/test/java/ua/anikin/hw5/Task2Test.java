@@ -22,7 +22,7 @@ class Task2Test {
     }
 
     @Test
-    void testEmptyArray(){
+    void testEmptyArray() {
         assertTrue(Task2.isOrderedArray(new int[3]));
     }
 }

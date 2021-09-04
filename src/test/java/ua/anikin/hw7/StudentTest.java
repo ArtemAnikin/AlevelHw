@@ -26,9 +26,8 @@ class StudentTest {
     }
 
     @Test
-    void testScholarshipDoubleNumbers(){
-        assertEquals(80,student3.getScholarship());
-        assertEquals(80,student4.getScholarship());
-
+    void testScholarshipDoubleNumbers() {
+        assertEquals(80, student3.getScholarship());
+        assertEquals(80, student4.getScholarship());
     }
 }
